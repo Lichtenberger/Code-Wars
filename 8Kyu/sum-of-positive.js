@@ -15,3 +15,9 @@ function positiveSum(arr) {
     }
     return sum;
 }
+
+// 1 line solution
+
+// function positiveSum(arr) {
+//    return arr.reduce((a,b)=> a + (b > 0 ? b : 0),0);
+//}
